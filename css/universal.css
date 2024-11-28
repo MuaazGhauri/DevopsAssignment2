@@ -1,0 +1,434 @@
+
+
+.store-header {
+    background-color: #002b5c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.store-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.store-header p {
+    margin: 5px 0 0;
+    font-size: 1.1rem;
+}
+
+/* Product Gallery Section */
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 15px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-price {
+    margin: 0;
+    padding: 10px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Footer */
+.store-footer {
+    background-color: #002b5c;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+
+/* This is the Product Details page design file (by Rehan) */
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f4f4f4;  
+}  
+
+.product-container {  
+    display: flex;  
+    max-width: 800px;  
+    margin: 50px auto;  
+    background-color: white;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    padding: 20px;  
+}  
+
+.product-image img {  
+    max-width: 300px;  
+    border-radius: 8px;  
+}  
+
+.product-details {  
+    margin-left: 20px;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+}  
+
+.product-details h1 {  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+}  
+
+.price {  
+    color: #e63946;  
+    font-size: 20px;  
+    font-weight: bold;  
+    margin-bottom: 15px;  
+}  
+
+.description {  
+    font-size: 16px;  
+    color: #555;  
+    margin-bottom: 20px;  
+}  
+
+.add-to-cart-btn {  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    cursor: pointer;  
+    border-radius: 5px;  
+}  
+
+.add-to-cart-btn:hover {  
+    background-color: #0056b3;  
+}
+/*/////////////////////////////////////////////////////*/
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: #0078d4;
+    color: white;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    padding: 0.5rem 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #0078d4;
+}
+
+/* Main Content */
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.welcome h2 {
+    text-align: center;
+    color: #0078d4;
+}
+
+.features ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+}
+
+/* Call-to-Action */
+.cta {
+    text-align: center;
+}
+
+.cta .button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cta .button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.contact-header {
+    background-color: #002b5c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.contact-header p {
+    margin: 10px 0 0;
+    font-size: 1.1rem;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #002b5c;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 43, 92, 0.3);
+}
+
+.contact-form button {
+    background-color: #002b5c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #00509e;
+}
+
+/* Footer */
+.contact-footer {
+    background-color: #002b5c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.promo-header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.promo-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.promo-header p {
+    margin: 5px 0 0;
+    font-size: 1.1rem;
+}
+
+/* Promotion Cards Section */
+.promo-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 15px;
+}
+
+.promo-card {
+    background-color: #fff;
+    border: 2px solid #ff6f61;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.promo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.promo-title {
+    font-size: 1.5rem;
+    color: #ff6f61;
+    margin: 10px 0;
+}
+
+.promo-description {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0 20px;
+}
+
+.promo-button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.promo-button:hover {
+    background-color: #e55c51;
+}
+
+/* Footer */
+.promo-footer {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
